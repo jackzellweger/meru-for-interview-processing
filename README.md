@@ -18,10 +18,9 @@ Meru is a simple API built on top of GPT_Index that lets you upload documents. I
 
 You’ll find at the root level a file called `ai-for-interviews.ipynb`. Just open it up in Jupyter, plug in your API key, your document (has to be hosted somewhere on the internet), and run the notebook!
 
-```mathematica
+```python
 apiKey = '' # Put your Meru API key here between the quotes
 interviews = '' # Put your file URL here between the quotes
-API_URL = 'https://api.usemeru.com/refine/v4/predict'
 ```
 
 [Here is some more information](https://docs.usemeru.com/densedatav4) from Meru on how to use the API.
